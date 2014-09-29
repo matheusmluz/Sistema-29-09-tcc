@@ -1,0 +1,246 @@
+body {
+	margin: 0 auto;
+}
+
+#geral {
+	width: 100%;
+	min-height: 760px;
+	background: #fff;
+}
+
+#topo {
+	width: 100%;
+	height: 50px;
+	background-color: #333;
+	-webkit-box-shadow: 0px 0px 10px 0px #000;
+}
+
+#areaLogo {
+	width: 220px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+#logoDesktop {
+	width: 100%;
+	height: 40px;
+	margin: 5px 0px 10px 10px;
+	float: left;
+	position: relative;
+}
+
+#logoDesktop img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+#menuMobile {
+	width: 40px;
+	height: 40px;
+	margin-top: 4.5px;
+	margin-left: 5px;
+	position: absolute;
+	background: #333;
+	-webkit-border-radius: 2px;
+	top: 0px;
+	left: 0px;
+	cursor: pointer;
+}
+
+#menuMobile:hover {
+	background-color: #222;
+}
+
+#scrollMobile {
+	width: 250px;
+	position: absolute;
+	margin: 0px 0px 0px -5px;
+	background: #222;
+	overflow: auto;
+	top: 50px;
+	left: 0px;
+}
+
+#col {
+	width: 25px;
+	height: 6px;
+	background-color: #666;
+	margin: 0px auto;
+	margin-top: 5px;
+}
+
+#scrollMobile ul {
+	margin: 0px 0px 0px -40px;
+	list-style: none;
+}
+
+#scrollMobile ul li p {
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	font-family: verdana;
+	font-weight: bold;	
+	line-height: 10px;
+}
+
+#scrollMobile ul li {
+	background: #222;
+	text-align: left;
+	line-height: 40px;
+	padding-left: 15px;
+	border-bottom: 1px solid #111;
+}
+
+#scrollMobile ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+#scrollMobile ul a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+
+#scrollMobile ul li ul{
+	background: #333;
+}
+
+#scrollMobile ul li ul li {
+	color: #fff;
+	background: #333;
+	font-size: 14px;
+	font-family: verdana;
+	font-weight: bold;
+	border-bottom: 0px;
+	
+}
+
+#scrollMobile ul li ul li:hover {
+	text-shadow: 0px 0px 3px #999;
+	border-right: 10px solid #9ACD32; 
+}
+.menuMobile {
+	width: 60%;
+	height: 5px;
+	background: #ff0000;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+
+#logoMobile {
+	width: 55%;
+	height: 50px;
+	margin: 0 auto;
+	margin-left: 25%;
+	/*background-image: url(../img/logo.png);
+	background-repeat: no-repeat;*/
+}
+
+.style, .rodape {
+	display: none;
+}
+
+.mobile{
+	padding-top: 5px;
+}
+
+#contDesktop {
+	width: 90%;
+	height: auto;
+	margin: 0px auto;
+	margin-top: 100px;
+	margin-top: 20px;
+}
+
+#contDesktop h1 {
+	text-align: center;
+	font-family: verdana;
+}
+
+#contDesktop table {
+	margin: 0 auto;
+	
+}
+
+#contDesktop table tr td{
+	margin: 0 auto;
+	max-width: 350px;
+	overflow-x: hidden;
+}
+
+#contDesktop table th {
+	margin: 0 auto;
+	background-color: #9ACD32;
+	color: #fff;
+}
+
+.center{
+	text-align: center;
+}
+.controle{
+	text-align: center;
+}
+
+.destaque {
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+
+#contDesktop table tr td a:not(:first-child) {
+	padding-left: 10px;
+	text-align: center;
+}
+
+.trConsulta:nth-child(2n){
+	background-color: #e8e8e8;
+}
+
+.trConsultaCuriosidade {
+	background-color: #98FB98;
+}
+
+#contDesktop input[type=submit], input[type=reset], input[type=button]{
+	width: auto;
+	height: 30px;
+	-webkit-border-radius: 10px;
+	border: 1px solid #333;
+	background-color: #333;
+	color: #fff;
+	-webkit-box-shadow: 0px 0px 3px 0px #000;
+	-moz-box-shadow: 0px 0px 3px 0px #000;
+	font-weight: bold;
+}
+
+#contDesktop input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover{
+	width: auto;
+	height: 30px;
+	background-color: #9ACD32;
+	color: #FFF;
+	font-weight: bold;
+}
+
+#contDesktop span {
+	color: #ff0000;
+}
+
+#contDesktop p {
+	font-family: verdana, arial;
+	font-size: 16px;
+}
+
+.novo {
+	font-weight: bold;
+}
+
+ label.error, input.submit { margin-left: 0px; color: red;}
+ 
+

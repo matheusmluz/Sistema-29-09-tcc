@@ -1,0 +1,120 @@
+body {
+	margin: 0 auto;
+}
+
+.style, .tablet, .rodape {
+	display: none;
+}
+
+.mobile{
+	padding-top: 5px;
+}
+
+.center {
+	text-align: center;
+}
+
+#geral {
+	width: 100%;
+	min-height: 480px;
+	background: #fff;
+	margin: 0 auto;
+}
+
+#contTopo {
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+	background-color: #333;
+	-webkit-box-shadow: 0px 0px 3px 0px #000;
+	-moz-box-shadow: 0px 0px 3px 0px #000;
+}
+
+#logo {
+	width: 50%;
+	height: 50px;
+	background-size: 100% 70%;
+	margin: 0 auto;
+	border: 1px solid red;
+	position: relative;
+	top: 5px;
+	background-image: url(../img/logo.fw.png);
+	background-repeat: no-repeat;
+}
+
+#btnLogin {
+	width: 20%;
+	height: 50px;
+	float: right;
+	background-size: 50% 50%;
+	border: 1px solid green;
+	position: relative;
+	top: -50px;
+	background-color: #fff;
+	background-image: url(../img/btnLogin.png);
+	background-repeat: no-repeat;
+}
+
+#loginDesktop {
+	display: none;
+}
+
+#loginMobile {
+	display: none;
+}
+
+#contDesktop {
+	width: 90%;
+	height: auto;
+	margin: 0px auto;
+	margin-top: 20px;
+}
+
+
+
+#contDesktop h1 {
+	text-align: center;
+	font-family: verdana;
+	font-size: 26px;
+}
+
+#contDesktop table {
+	margin: 0 auto;
+}
+
+label.error, input.submit { margin-left: 0px; color: red;}
+
+#contDesktop input[type=submit], input[type=reset]{
+	width: 80px;
+	height: 30px;
+	-webkit-border-radius: 10px;
+	border: 1px solid #333;
+	background-color: #333;
+	color: #fff;
+	-webkit-box-shadow: 0px 0px 3px 0px #000;
+	-moz-box-shadow: 0px 0px 3px 0px #000;
+	font-weight: bold;
+}
+
+#contDesktop input[type=submit]:hover, input[type=reset]:hover{
+	width: 80px;
+	height: 30px;
+	background-color: #9ACD32;
+	color: #FFF;
+	font-weight: bold;
+}
+
+#contDesktop span {
+	color: #ff0000;
+}
+#cadastroUsuario {
+	width: 80%;
+	height: 80px;
+	margin: 0 auto;
+	background-color: #888;
+}
+
+
+
+
+
